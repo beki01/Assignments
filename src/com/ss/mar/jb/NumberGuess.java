@@ -18,12 +18,12 @@ public class NumberGuess {
 
         System.out.println("Please guess a number between 1-100");
 
-        while(!((userGuess>(answer-10)) && (userGuess<(answer+10))) && guessCount<maxGuessCount){
+        while(!((userGuess>=(answer-10)) && (userGuess<=(answer+10))) && guessCount<maxGuessCount){
             userGuess= guess.nextInt();
 
             guessCount++;
 
-            if((userGuess>(answer-10)) && (userGuess<(answer+10))){
+            if((userGuess>=(answer-10)) && (userGuess<=(answer+10))){
                 System.out.println("Close Enough! Answer is "+ answer);
             } else if(userGuess> answer){
                 System.out.println("too high");
