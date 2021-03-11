@@ -1,4 +1,4 @@
-package com.ss.march.jb.daytwo;
+package com.ss.mar.jb.two;
 
 public interface Shape {
 

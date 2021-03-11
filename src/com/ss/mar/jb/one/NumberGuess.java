@@ -1,4 +1,4 @@
-package com.ss.mar.jb;
+package com.ss.mar.jb.one;
 
 import java.util.Scanner;
 

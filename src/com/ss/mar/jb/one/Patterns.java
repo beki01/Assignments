@@ -1,4 +1,4 @@
-package com.ss.mar.jb;
+package com.ss.mar.jb.one;
 
 /**
  * @author beki
@@ -77,7 +77,7 @@ public class Patterns {
     }
 
     /**
-     * @param args
+     * @param args - main function
      */
     public static void main(String[] args){
         System.out.println("Half up: ");
