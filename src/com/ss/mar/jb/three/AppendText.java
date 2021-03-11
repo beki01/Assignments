@@ -12,15 +12,14 @@ public class AppendText {
 
     /**
      * Appends text to end of three.txt file in resources.
-     * 
      */
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-        String textToAppend ;
+        String textToAppend;
         String fileName = "/three.txt";
 
         System.out.println("Please enter the text you would like to append to \"three.text\" in resources.");
-        textToAppend="\n"+ userInput.nextLine();
+        textToAppend = "\n" + userInput.nextLine();
 
         try {
             Files.write(Paths.get(fileName), textToAppend.getBytes(UTF_8), StandardOpenOption.APPEND);
